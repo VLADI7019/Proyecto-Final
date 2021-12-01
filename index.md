@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<form>
+<legend><center><font color = "BLUE" size =16>INFOCAL</font><font color = "RED" size =12> SEDE</font><font color = "BLUE" size =12> LA PAZ</font></center></legend>
+ <hr color="blue" size =4>
+<body bgcolor="orange">
+<left><table bgcolor ="orange">
+<tr><td><label for="email">Email:</font></b></label></td>
+<td><input type="text" id="email" name="email" placeholder="correo@empresa.com" required maxlength="30"><br><br></td></tr>
+<tr><td><label for ="nombre">  nombre: </label></td>
+<td><input type="Text" accesskey="" tabindex="" title="" maxlength="" id="" name="" size="" /><br></td></tr>
+<tr><td><label for ="Apellidos">  Apellidos:   </label></td>
+<td><input type="Text" accesskey="" tabindex="" title="" maxlength="" id="" name="" size="" /><br></td></tr>
+<tr><td><label for ="edad">  edad:   </label></td>
+<td><input type="Text" accesskey="" tabindex="" title="" maxlength="" id="" name="" size="" /><br></td></tr>
+<tr><td>
 
-You can use the [editor on GitHub](https://github.com/VLADI7019/Proyecto-Final/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <tr><td><label for ="Sexo">  Sexo:   </label>
+    <td><INPUT type="radio" name="sexo" value="Varón"> Masculino
+    <INPUT type="radio" name="sexo" value="Mujer"> Femenino<BR></td>
+    <tr><td><label for="taste_1">CARRERAS QUE QUISIERA ESTUDIAR:</label></td></tr>
+    <tr><td><input type="checkbox" id="taste_1" name="taste_cherry" value="cherry">
+    <label for="taste_1">INFORMATICA</label></td>
+    <td><input type="checkbox" id="taste_2" name="taste_cherry" value="cherry">
+    <label for="taste_2">MECANICA AUTOMOTRIZ</label></td>
+    <td><input type="checkbox" id="taste_3" name="taste_cherry" value="cherry">
+    <label for="taste_3">ENFERMERIA</label></td></tr>
+    <tr><td><input type="checkbox" id="taste_1" name="taste_cherry" value="cherry">
+    <label for="taste_1">GASTRONOMIA</label></td>
+    <td><input type="checkbox" id="taste_2" name="taste_cherry" value="cherry">
+    <label for="taste_2">CONTABILIDAD</label></td>
+    <td><input type="checkbox" id="taste_3" name="taste_cherry" value="cherry">
+    <label for="taste_3">PARBULARIO</label></td></tr>
+    <tr><td><input type="checkbox" id="taste_1" name="taste_cherry" value="cherry">
+    <label for="taste_1">MECANICA INDUSTRIAL</label></td>
+    <td><input type="checkbox" id="taste_2" name="taste_cherry" value="cherry">
+    <label for="taste_2">MATEMATICA</label></td>
+    <td><input type="checkbox" id="taste_3" name="taste_cherry" value="cherry">
+    <label for="taste_3">REPOSTERIA</label></td></tr>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<tr><td><label for="taste_2">Turno</label></td>
+<td><select name="Lugar de nacimiento">
+<option selected>escoge una opcion</option>
+<option>MAÑANA</option>
+<option>TARDE</option>
+<option>NOCHE</option>
+<tr><td><label for="taste_2">Modalidad de clase</label></td>
+<td><select name="Modalidad de Clase">
+<option selected>escoge una opcion</option>
+<option>PRESENCIAL</option>
+<option>SEMI PRESENCIAL</option>
+<option>VIRTUAL</option>
+</select>
+<tr><td> <h3>  * Para la reserva de cupos escane los siguentes documentos *</h3>
 
-### Markdown
+      <ul>
+          <li>Titulo de Bachiller</li>
+          <li>carnet (amberso y reverso)</li>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      </ul>
+</td></tr>
+<tr><td><label for="taste_2">documentos (opcional)</label></td>
+<td><input type="File" accept="Foto" title="" id="1" name="vitae" /></td></tr><p>
+<tr><td></tr>
+<tr><td><label for="mensaje"><b>Comentarios/Sugerencias</b></label></td>
+    <td><textarea name="mensaje" id="mensaje" maxlength="800"></textarea></td></tr>
+</table></left>
+<center><table>
+<tr><td></tr>
+<tr><td><p><center><input type="Submit" accesskey="" tabindex="" title="enviar" value="enviar" id="" name="" />
+<INPUT type="reset"></p></center></td><tr>
 
-```markdown
-Syntax highlighted code block
+</table></center>
+</form>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VLADI7019/Proyecto-Final/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>

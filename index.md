@@ -4,8 +4,8 @@
 <legend><center><font color = "BLUE" size =16>INFOCAL</font><font color = "RED" size =12> SEDE</font><font color = "BLUE" size =12> LA PAZ</font></center></legend>
  <hr color="blue" size =4>
 <body bgcolor="orange">
-<left><table bgcolor ="orange">
-<tr><td><label for="email">Email:</font></b></label></td>
+<table bgcolor ="orange"><left>
+<tr><td><label for="email">Email:</label></td>
 <td><input type="text" id="email" name="email" placeholder="correo@empresa.com" required maxlength="30"><br><br></td></tr>
 <tr><td><label for ="nombre">  nombre: </label></td>
 <td><input type="Text" accesskey="" tabindex="" title="" maxlength="" id="" name="" size="" /><br></td></tr>
@@ -61,11 +61,8 @@
 </td></tr>
 <tr><td><label for="taste_2">documentos (opcional)</label></td>
 <td><input type="File" accept="Foto" title="" id="1" name="vitae" /></td></tr><p>
-<tr><td></tr>
 <tr><td><label for="mensaje"><b>Comentarios/Sugerencias</b></label></td>
     <td><textarea name="mensaje" id="mensaje" maxlength="800"></textarea></td></tr>
-</table></left>
-<center><table>
 <tr><td></tr>
 <tr><td><p><center><input type="Submit" accesskey="" tabindex="" title="enviar" value="enviar" id="" name="" />
 <INPUT type="reset"></p></center></td><tr>
